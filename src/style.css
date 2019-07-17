@@ -1,0 +1,81 @@
+.box {
+    display: inline-block;
+    border: 1px solid #000000;
+    width: 20px;
+    height: 20px;
+    margin: -1px 0;
+}
+.box:hover {
+    background-color: #5181ff;
+    cursor: pointer;
+}
+.off {
+    background-color: #ffffff;
+}
+.on {
+    background-color: #2d75ff;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.inputs div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.inputs div label {
+    text-align: center;
+}
+.inputs div input {
+    margin: 12px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #909ca5;
+    text-align: center;
+    width: 60px;
+    outline: none;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background: #2d75ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.buttons select {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background: #2d75ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.field {
+    display: block;
+    margin: 30px auto;
+}
+.generation {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
