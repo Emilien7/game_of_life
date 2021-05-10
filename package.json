@@ -27,7 +27,7 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6"
